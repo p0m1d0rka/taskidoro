@@ -1,0 +1,9 @@
+FROM python:3.8
+
+WORKDIR /usr/app
+
+COPY requirements.dev.txt .
+RUN pip install -r requirements.dev.txt --no-cache-dir
+
+COPY . .
+CMD ["python", "src/main.py"]

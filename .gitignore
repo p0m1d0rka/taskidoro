@@ -1,0 +1,15 @@
+# ignore python cache
+__pycache__
+*.pyc
+
+# ignote IDE
+.vscode
+
+# ignote mongodb dev data
+mongodb/data/
+
+# ignore .pytest_cache
+.pytest_cache
+
+# ignore secrets
+.env
