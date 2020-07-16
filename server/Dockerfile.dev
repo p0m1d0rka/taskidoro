@@ -6,4 +6,4 @@ COPY requirements.dev.txt .
 RUN pip install -r requirements.dev.txt --no-cache-dir
 
 COPY . .
-CMD ["uvicorn", "main:app", "--reload", "--host=0.0.0.0"]
+CMD ["uvicorn", "app.main:app", "--reload", "--host=0.0.0.0"]
