@@ -13,3 +13,6 @@ mongodb/data/
 
 # ignore secrets
 .env
+
+#ignore sanbox.py
+sandbox.py
